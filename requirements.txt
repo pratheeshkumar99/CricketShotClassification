@@ -2,5 +2,4 @@ streamlit
 opencv-python
 numpy
 tensorflow
-tempfile
 shutil

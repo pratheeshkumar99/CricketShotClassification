@@ -151,7 +151,7 @@ with col1:
         st.success(f"First video classified as {class1} with confidence {conf1:.2f}%")
 
 with col2:
-    video2 = st.file_uploader("Upload second video", type=["mp4", "avi"], key="video2")
+    video2 = st.file_uploader("Upload second video", type=["mp4", "avi", "move"], key="video2")
     if video2:
         st.video(video2)
         video2_path = save_uploaded_file(video2)

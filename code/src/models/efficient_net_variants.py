@@ -17,7 +17,6 @@ class EfficientNetB2Model(BaseEfficientNet):
     def get_backbone(self):
         return EfficientNetB2
 
-# Factory function for creating models
 def create_efficient_net(config: Dict[str, Any]) -> BaseEfficientNet:
     """Factory function to create the appropriate EfficientNet model"""
     model_map = {

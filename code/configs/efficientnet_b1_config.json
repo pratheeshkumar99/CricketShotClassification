@@ -1,0 +1,29 @@
+{
+    "backbone": "B1",
+    "input_shape": [240, 240, 3],
+    "num_classes": 10,
+    "gru_units": [384, 192],
+    "dropout_rate": 0.5,
+    "learning_rate": 0.0008,
+    "batch_size": 24,
+    "epochs": 50,
+    "patience": 10,
+    "num_frames": 30,
+    "train_path": "/content/drive/MyDrive/dataset/train",
+    "val_path": "/content/drive/MyDrive/dataset/val",
+    "test_path": "/content/drive/MyDrive/dataset/test",
+    "model_path": "models/efficientnet_b1_classifier.h5",
+    "output_dir": "outputs/efficientnet_b1",
+    "class_mapping": {
+        "cover": 0,
+        "defense": 1,
+        "flick": 2,
+        "hook": 3,
+        "late_cut": 4,
+        "lofted": 5,
+        "pull": 6,
+        "square_cut": 7,
+        "straight": 8,
+        "sweep": 9
+    }
+}
